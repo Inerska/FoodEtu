@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FoodEtu.Domain\FoodEtu.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
