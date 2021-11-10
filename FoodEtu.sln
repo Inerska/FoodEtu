@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodEtu.Server", "FoodEtu.Server\FoodEtu.Server.csproj", "{71438ADC-CB86-49E1-97FD-0A66645C71DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Server", "FoodEtu.Server\FoodEtu.Server.csproj", "{71438ADC-CB86-49E1-97FD-0A66645C71DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodEtu.Test", "FoodEtu.Test\FoodEtu.Test.csproj", "{0E690F2A-F71B-4FA8-A840-5FCCEFF1FCED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Infrastructure", "FoodEtu.Infrastructure\FoodEtu.Infrastructure.csproj", "{9325DFF5-A143-4C72-B1DF-2356651E6C44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodEtu.Infrastructure", "FoodEtu.Infrastructure\FoodEtu.Infrastructure.csproj", "{9325DFF5-A143-4C72-B1DF-2356651E6C44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Domain", "FoodEtu.Domain\FoodEtu.Domain.csproj", "{A1ACD13E-E77A-4033-B088-F9229E2F16F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodEtu.Domain", "FoodEtu.Domain\FoodEtu.Domain.csproj", "{A1ACD13E-E77A-4033-B088-F9229E2F16F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Shared", "FoodEtu.Shared\FoodEtu.Shared.csproj", "{B3A02C9A-3430-475D-A464-5DBFB615C13F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodEtu.Shared", "FoodEtu.Shared\FoodEtu.Shared.csproj", "{B3A02C9A-3430-475D-A464-5DBFB615C13F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodEtu.Components.Test", "FoodEtu.Components.Test\FoodEtu.Components.Test.csproj", "{16C9B6F1-7BCB-430E-A125-000505EC8205}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{71438ADC-CB86-49E1-97FD-0A66645C71DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71438ADC-CB86-49E1-97FD-0A66645C71DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71438ADC-CB86-49E1-97FD-0A66645C71DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E690F2A-F71B-4FA8-A840-5FCCEFF1FCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E690F2A-F71B-4FA8-A840-5FCCEFF1FCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E690F2A-F71B-4FA8-A840-5FCCEFF1FCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E690F2A-F71B-4FA8-A840-5FCCEFF1FCED}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9325DFF5-A143-4C72-B1DF-2356651E6C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9325DFF5-A143-4C72-B1DF-2356651E6C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9325DFF5-A143-4C72-B1DF-2356651E6C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{B3A02C9A-3430-475D-A464-5DBFB615C13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3A02C9A-3430-475D-A464-5DBFB615C13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3A02C9A-3430-475D-A464-5DBFB615C13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C9B6F1-7BCB-430E-A125-000505EC8205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C9B6F1-7BCB-430E-A125-000505EC8205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C9B6F1-7BCB-430E-A125-000505EC8205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C9B6F1-7BCB-430E-A125-000505EC8205}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
