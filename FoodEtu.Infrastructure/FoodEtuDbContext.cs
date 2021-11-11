@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace FoodEtu.Domain;
+namespace FoodEtu.Infrastructure;
 internal class FoodEtuDbContext
     : DbContext
 {

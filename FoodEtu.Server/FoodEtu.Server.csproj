@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FoodEtu.ComponentsLibrary\FoodEtu.ComponentsLibrary.csproj" />
     <ProjectReference Include="..\FoodEtu.Domain\FoodEtu.Domain.csproj" />
   </ItemGroup>
 

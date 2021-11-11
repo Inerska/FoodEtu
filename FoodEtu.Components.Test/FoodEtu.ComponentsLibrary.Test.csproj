@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FoodEtu.Server\FoodEtu.Server.csproj" />
+    <ProjectReference Include="..\FoodEtu.ComponentsLibrary\FoodEtu.ComponentsLibrary.csproj" />
   </ItemGroup>
 
 </Project>
