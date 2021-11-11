@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace FoodEtu.Domain;
+namespace FoodEtu.Infrastructure;
 public static class Setup
 {
-    public static IServiceCollection AddFoodEtuDomain(this IServiceCollection services)
+    public static IServiceCollection AddFoodEtuInfrastructure(this IServiceCollection services)
         => services.AddDbContext<FoodEtuDbContext>();
 }
