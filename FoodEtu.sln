@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Web", "FoodEtu.Server\FoodEtu.Web.csproj", "{71438ADC-CB86-49E1-97FD-0A66645C71DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Web", "FoodEtu.Web\FoodEtu.Web.csproj", "{71438ADC-CB86-49E1-97FD-0A66645C71DF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Infrastructure", "FoodEtu.Infrastructure\FoodEtu.Infrastructure.csproj", "{9325DFF5-A143-4C72-B1DF-2356651E6C44}"
 EndProject
@@ -14,8 +14,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.ComponentsLibrary.Test", "FoodEtu.Components.Test\FoodEtu.ComponentsLibrary.Test.csproj", "{16C9B6F1-7BCB-430E-A125-000505EC8205}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodEtu.ComponentsLibrary", "FoodEtu.ComponentsLibrary\FoodEtu.ComponentsLibrary.csproj", "{0D2089B5-F1A2-47D2-BACE-D9E353E179E2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodEtu.Client.Shared", "FoodEtu.Client\Shared\FoodEtu.Client.Shared.csproj", "{2DAE8B67-C748-43B5-A3C5-78E7768E0D91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
