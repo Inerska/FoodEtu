@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Domain", "FoodEtu.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Shared", "FoodEtu.Shared\FoodEtu.Shared.csproj", "{B3A02C9A-3430-475D-A464-5DBFB615C13F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodEtu.Components.Test", "FoodEtu.Components.Test\FoodEtu.Components.Test.csproj", "{16C9B6F1-7BCB-430E-A125-000505EC8205}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.ComponentsLibrary.Test", "FoodEtu.Components.Test\FoodEtu.ComponentsLibrary.Test.csproj", "{16C9B6F1-7BCB-430E-A125-000505EC8205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodEtu.ComponentsLibrary", "FoodEtu.ComponentsLibrary\FoodEtu.ComponentsLibrary.csproj", "{0D2089B5-F1A2-47D2-BACE-D9E353E179E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{16C9B6F1-7BCB-430E-A125-000505EC8205}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16C9B6F1-7BCB-430E-A125-000505EC8205}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16C9B6F1-7BCB-430E-A125-000505EC8205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2089B5-F1A2-47D2-BACE-D9E353E179E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2089B5-F1A2-47D2-BACE-D9E353E179E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2089B5-F1A2-47D2-BACE-D9E353E179E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2089B5-F1A2-47D2-BACE-D9E353E179E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
