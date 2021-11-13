@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "FoodEtu.Server": {
+    "FoodEtu.Web": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

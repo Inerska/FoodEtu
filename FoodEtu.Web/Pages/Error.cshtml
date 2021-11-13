@@ -1,5 +1,5 @@
 ﻿@page
-@model FoodEtu.Server.Pages.ErrorModel
+@model FoodEtu.Web.Pages.ErrorModel
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,9 +20,9 @@
 
             @if (Model.ShowRequestId)
             {
-                                                    <p>
-                                                        <strong>Request ID:</strong> <code>@Model.RequestId</code>
-                                                    </p>
+                                                        <p>
+                                                            <strong>Request ID:</strong> <code>@Model.RequestId</code>
+                                                        </p>
             }
 
             <h3>Development Mode</h3>

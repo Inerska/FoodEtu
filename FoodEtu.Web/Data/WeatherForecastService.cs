@@ -1,4 +1,4 @@
-namespace FoodEtu.Server.Data
+namespace FoodEtu.Web.Data
 {
     public class WeatherForecastService
     {
