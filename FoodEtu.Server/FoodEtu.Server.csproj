@@ -15,4 +15,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FoodEtu.ComponentsLibrary\FoodEtu.ComponentsLibrary.csproj" />
+    <ProjectReference Include="..\FoodEtu.Domain\FoodEtu.Domain.csproj" />
+    <ProjectReference Include="..\FoodEtu.Infrastructure\FoodEtu.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

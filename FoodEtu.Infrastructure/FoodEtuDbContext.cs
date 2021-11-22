@@ -1,11 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace FoodEtu.Infrastructure;
-internal class FoodEtuDbContext
-    : DbContext
+public class FoodEtuDbContext
+    : IdentityDbContext<IdentityUser>
 {
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    public FoodEtuDbContext(DbContextOptions<FoodEtuDbContext> options)
+        : base(options)
     {
-        base.OnModelCreating(modelBuilder);
     }
 }
