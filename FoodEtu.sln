@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.ComponentsLibrary",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Server", "FoodEtu.Server\FoodEtu.Server.csproj", "{588EAEC5-74AB-4411-8302-6427CA33FD78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodEtu.Infrastructure.Test", "FoodEtu.Infrastructure.Test\FoodEtu.Infrastructure.Test.csproj", "{FDCE2760-A902-43E9-B7DD-8E11171495D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{588EAEC5-74AB-4411-8302-6427CA33FD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{588EAEC5-74AB-4411-8302-6427CA33FD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{588EAEC5-74AB-4411-8302-6427CA33FD78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCE2760-A902-43E9-B7DD-8E11171495D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCE2760-A902-43E9-B7DD-8E11171495D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCE2760-A902-43E9-B7DD-8E11171495D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCE2760-A902-43E9-B7DD-8E11171495D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
