@@ -1,24 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-FoodEtu.Server-94A82020-D1BA-45DA-B8A2-B19B74C458EA</UserSecretsId>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>aspnet-FoodEtu.Server-94A82020-D1BA-45DA-B8A2-B19B74C458EA</UserSecretsId>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.0"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\FoodEtu.ComponentsLibrary\FoodEtu.ComponentsLibrary.csproj" />
-    <ProjectReference Include="..\FoodEtu.Domain\FoodEtu.Domain.csproj" />
-    <ProjectReference Include="..\FoodEtu.Infrastructure\FoodEtu.Infrastructure.csproj" />
-  </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\FoodEtu.ComponentsLibrary\FoodEtu.ComponentsLibrary.csproj"/>
+        <ProjectReference Include="..\FoodEtu.Domain\FoodEtu.Domain.csproj"/>
+        <ProjectReference Include="..\FoodEtu.Infrastructure\FoodEtu.Infrastructure.csproj"/>
+    </ItemGroup>
 
 </Project>

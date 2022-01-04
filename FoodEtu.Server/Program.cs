@@ -1,3 +1,7 @@
+// Copyright (c) Alexis Chân Gridel. All Rights Reserved.
+// Licensed under the GNU General Public License v3.0.
+// See the LICENSE file in the project root for more information.
+
 using FoodEtu.Infrastructure;
 using FoodEtu.Server.Areas.Identity;
 using FoodEtu.Server.Data;
@@ -16,7 +20,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<FoodEtuDbContext>();
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
+builder.Services
+    .AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
 builder.Services.AddSingleton<WeatherForecastService>();
 
 var app = builder.Build();
