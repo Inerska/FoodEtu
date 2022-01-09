@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Infrastructure", "F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Domain", "FoodEtu.Domain\FoodEtu.Domain.csproj", "{A1ACD13E-E77A-4033-B088-F9229E2F16F5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Shared", "FoodEtu.Shared\FoodEtu.Shared.csproj", "{B3A02C9A-3430-475D-A464-5DBFB615C13F}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.ComponentsLibrary", "FoodEtu.ComponentsLibrary\FoodEtu.ComponentsLibrary.csproj", "{0D2089B5-F1A2-47D2-BACE-D9E353E179E2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodEtu.Server", "FoodEtu.Server\FoodEtu.Server.csproj", "{588EAEC5-74AB-4411-8302-6427CA33FD78}"
@@ -29,10 +27,6 @@ Global
 		{A1ACD13E-E77A-4033-B088-F9229E2F16F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1ACD13E-E77A-4033-B088-F9229E2F16F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1ACD13E-E77A-4033-B088-F9229E2F16F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B3A02C9A-3430-475D-A464-5DBFB615C13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B3A02C9A-3430-475D-A464-5DBFB615C13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B3A02C9A-3430-475D-A464-5DBFB615C13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B3A02C9A-3430-475D-A464-5DBFB615C13F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D2089B5-F1A2-47D2-BACE-D9E353E179E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D2089B5-F1A2-47D2-BACE-D9E353E179E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D2089B5-F1A2-47D2-BACE-D9E353E179E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
