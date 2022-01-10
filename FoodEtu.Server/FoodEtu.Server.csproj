@@ -8,17 +8,21 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.0"/>
-        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0"/>
-        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.0"/>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0"/>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0" />
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\FoodEtu.ComponentsLibrary\FoodEtu.ComponentsLibrary.csproj"/>
-        <ProjectReference Include="..\FoodEtu.Domain\FoodEtu.Domain.csproj"/>
-        <ProjectReference Include="..\FoodEtu.Infrastructure\FoodEtu.Infrastructure.csproj"/>
+        <ProjectReference Include="..\FoodEtu.ComponentsLibrary\FoodEtu.ComponentsLibrary.csproj" />
+        <ProjectReference Include="..\FoodEtu.Domain\FoodEtu.Domain.csproj" />
+        <ProjectReference Include="..\FoodEtu.Infrastructure\FoodEtu.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Redirects\ConnectionRedirect.razor" />
     </ItemGroup>
 
 </Project>

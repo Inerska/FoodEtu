@@ -7,16 +7,21 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Remove="AuthorizationPipeline.razor"/>
+        <None Remove="AuthorizationPipeline.razor" />
+        <None Remove="Authorization\**" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components" Version="6.0.0"/>
-        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Components" Version="6.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.0" />
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="Authorization\"/>
+      <Compile Remove="Authorization\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Authorization\**" />
     </ItemGroup>
 
 </Project>
