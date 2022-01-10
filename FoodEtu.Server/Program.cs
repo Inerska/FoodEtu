@@ -4,7 +4,6 @@
 
 using FoodEtu.Infrastructure;
 using FoodEtu.Server.Areas.Identity;
-using FoodEtu.Server.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -22,7 +21,6 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services
     .AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
-builder.Services.AddSingleton<WeatherForecastService>();
 
 var app = builder.Build();
 

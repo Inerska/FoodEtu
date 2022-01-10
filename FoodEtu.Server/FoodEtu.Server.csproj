@@ -22,7 +22,14 @@
     </ItemGroup>
 
     <ItemGroup>
-      <_ContentIncludedByDefault Remove="Redirects\ConnectionRedirect.razor" />
+        <_ContentIncludedByDefault Remove="Redirects\ConnectionRedirect.razor" />
+        <_ContentIncludedByDefault Remove="Pages\BirthProcess\Bootstrapper.cshtml" />
+        <_ContentIncludedByDefault Remove="Pages\BirthProcess\_Host.cshtml" />
+        <_ContentIncludedByDefault Remove="Pages\BirthProcess\_Layout.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Data" />
     </ItemGroup>
 
 </Project>
