@@ -8,10 +8,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.0"/>
-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0"/>
-        <PackageReference Include="Moq" Version="4.16.1"/>
-        <PackageReference Include="xunit" Version="2.4.1"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.0" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+        <PackageReference Include="Moq" Version="4.16.1" />
+        <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.376">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="xunit" Version="2.4.1" />
         <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
@@ -23,8 +27,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\FoodEtu.Domain\FoodEtu.Domain.csproj"/>
-        <ProjectReference Include="..\FoodEtu.Infrastructure\FoodEtu.Infrastructure.csproj"/>
+        <ProjectReference Include="..\FoodEtu.Domain\FoodEtu.Domain.csproj" />
+        <ProjectReference Include="..\FoodEtu.Infrastructure\FoodEtu.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
