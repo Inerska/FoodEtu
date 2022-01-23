@@ -6,24 +6,7 @@
 <div class="page">
     <main>
         <article class="content px-4">
-            <p>Hello world!</p>
+            @Body
         </article>
     </main>
 </div>
-
-@code
-{
-    [CascadingParameter]
-    protected Task<AuthenticationState>? AuthenticationStateTask { get; set; }
-
-    protected override async Task OnInitializedAsync()
-    {
-        ArgumentNullException.ThrowIfNull(AuthenticationStateTask);
-        var user = (await AuthenticationStateTask).User;
-
-        if (!user.Identity!.IsAuthenticated)
-        {
-            _navigationManager.NavigateTo("/firstJoin");
-        }
-    }
-}
